@@ -1,0 +1,15 @@
+{
+  "name": "pywws hassio addon",
+  "version": "1",
+  "slug": "pywws_hassio",
+  "description": "pywws!",
+  "privileged": [
+    "SYS_RAWIO"
+  ],
+  "devices": ["/dev/ttyUSB0:/dev/ttyUSB0:rwm"]
+  "map": [],
+  "startup": "once",
+  "boot": "auto",
+  "options": {},
+  "schema": {}
+}
