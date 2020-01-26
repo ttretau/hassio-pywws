@@ -6,7 +6,7 @@
   "privileged": [
     "SYS_RAWIO"
   ],
-  "devices": ["/dev/ttyUSB0:/dev/ttyUSB0:rwm"]
+  "devices": ["/dev/ttyUSB0:/dev/ttyUSB0:rwm"],
   "map": [],
   "startup": "once",
   "boot": "auto",
